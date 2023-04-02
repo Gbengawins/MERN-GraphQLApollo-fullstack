@@ -13,8 +13,11 @@ function App() {
   return (
     <div className="App">
       <TopNavbar />
+      <div className="container">
+
       <Movies />
-      <AddMovie />
+      <AddMovie /> 
+      </div>
       <Footer />
     </div>
   );
