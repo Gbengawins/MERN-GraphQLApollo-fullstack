@@ -8,7 +8,7 @@ const AddMovie = () => {
     <div id="addMovie">
       <div className="addMovie-form">
         <h2><GiFilmSpool /> Add Movie</h2>
-        <form onSubmit={() => alert("Movie Added")}>
+        <form onSubmit={() => alert("Movie Added!")}>
           <fieldset>
             <legend>Add Movie</legend>
             <label>Image</label> <br />
